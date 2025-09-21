@@ -57,7 +57,7 @@ sauce/
 
 * Page Object Model (POM) for maintainability
 * Data-Driven Testing using CSV/ODS (via DataDriver library)
-* Reusable Keywords for modular test design
+* Keyword-Driven Testing Reusable Keywords for modular test design
 * Screenshots & Logs
 * End-to-End Coverage including login, add-to-cart, checkout, and logout
 * Error Handling with TRY/EXCEPT and conditional validation
