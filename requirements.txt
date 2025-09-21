@@ -1,0 +1,9 @@
+robotframework==7.3.2
+robotframework-seleniumlibrary==6.7.1
+selenium==4.35.0
+pip==25.2.0
+pandas==2.3.2
+pytest==8.4.2
+odfpy==1.4.1
+robotframework-jsonlibrary==0.5
+robotframework-csvlibrary==0.5
