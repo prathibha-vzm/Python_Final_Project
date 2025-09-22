@@ -79,4 +79,11 @@ sauce/
 <pre><code> robot tests/ </code></pre>
 ### edge
 <pre><code> robot --variable BROWSER:edge tests/ </code></pre>
+### To Generate Allure Report
+To Store the Generated Allure Tests
+To Open the Allure Report
+<pre><code> robot --listener "allure_robotframework:allure-results" tests/ </code>
+<code>  allure generate allure-results -o allure-report --clean </code>
+<code> allure serve allure-results 
+</code></pre>
 
