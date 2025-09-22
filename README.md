@@ -84,5 +84,6 @@ sauce/
 ### To Store the Generated Allure Tests
 <pre><code>  allure generate allure-results -o allure-report --clean </code></pre>
 ### To Open/View the Allure Report Locally
-<pre><code> allure serve allure-results </code></pre>
+<pre><code> allure serve allure-results or  allure open allure-report
+ </code></pre>
 
