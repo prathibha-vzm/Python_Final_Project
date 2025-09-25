@@ -1,5 +1,0 @@
-*** Test Cases ***;${FIRST_NAME};${LAST_NAME};${ZIP_CODE}
-Right First Name Last Name ZIP Code;Prathibha;Vigneswaran;666666
-No First Name Right Last Name ZIP Code;;sdfs;343434
-Right First Name No Last Name ZIP Code;Abi;;555678
-Right First Name Last Name Invalid ZIP Code;Sauce;Labs;Demo
