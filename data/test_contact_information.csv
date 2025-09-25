@@ -1,0 +1,5 @@
+*** Test Cases ***;${FIRST_NAME};${LAST_NAME};${ZIP_CODE};[Tags]
+Right First Name Last Name ZIP Code;Prathibha;Vigneswaran;666666;TC012
+No First Name Right Last Name ZIP Code;;sdfs;343434;TC013
+Right First Name No Last Name ZIP Code;Abi;;555678;TC014
+Right First Name Last Name Invalid ZIP Code;Sauce;Labs;Demo;TC015

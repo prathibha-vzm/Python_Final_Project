@@ -1,0 +1,4 @@
+*** Test Cases ***;${username};${password};[Tags];[Documentation]
+Right Username and Password;standard_user;secret_sauce;TC001;Valid Credentials
+Wrong Username and Right Password;locked_out_user;secret_sauce;TC002;Invalid Credentials
+Right Username and Password;performance_glitch_user;secret_sauce;TC003;Valid Credentials
