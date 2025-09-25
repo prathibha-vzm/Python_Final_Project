@@ -87,3 +87,5 @@ sauce/
 <pre><code> allure serve allure-results or  allure open allure-report
  </code></pre>
 
+# Traceability Matrix
+<pre><code>https://docs.google.com/spreadsheets/d/1TrTbwAuleJmsZZVh3xVlKV33TFJc7LrfRE9cWThmVqA/edit?usp=sharing</code></pre>
