@@ -69,6 +69,7 @@ sauce/
   5. Checking error messages when expected fields are not filled
 * CI/CD Integration
 * Traceability Matrix
+* Test Metrics
 
 # Usage
 ## To Install Dependencies
@@ -94,7 +95,8 @@ sauce/
 2. After each successful build, the build status is updated in GitHub, providing real-time feedback on test results.
    <img width="1609" height="226" alt="image" src="https://github.com/user-attachments/assets/45d1353b-b5d1-4a2a-be4a-06ddae8cf7ae" />
 
-
-
 # Traceability Matrix
 <pre><code>https://docs.google.com/spreadsheets/d/1TrTbwAuleJmsZZVh3xVlKV33TFJc7LrfRE9cWThmVqA/edit?usp=sharing</code></pre>
+
+# Test Case Metrics
+<pre><code>https://docs.google.com/spreadsheets/d/1pJ9gaCoUWdEgEOVdqNRbacyfHy17LlyeMiDbJX3BqLQ/edit?usp=sharing</code></pre>
