@@ -31,10 +31,11 @@ pipeline {
 
     post {
         success {
-            echo "✅ All tests passed"
+            echo "All tests passed"
         }
         failure {
-            echo "❌ Some tests failed — check report in Jenkins"
+            echo "Some tests failed — check report in Jenkins"
         }
     }
+
 }
