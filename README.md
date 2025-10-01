@@ -108,3 +108,5 @@ sauce/
 4. Decision Table testing
 5. Security Testing
 6. Usability Testing
+7. Integration Testing
+8. Unit Testing
