@@ -84,8 +84,13 @@ sauce/
 ### To Store the Generated Allure Tests
 <pre><code>  allure generate allure-results -o allure-report --clean </code></pre>
 ### To Open/View the Allure Report Locally
-<pre><code> allure serve allure-results or  allure open allure-report
- </code></pre>
+<pre><code> allure serve allure-results or  allure open allure-report </code></pre>
+
+# CI/CD Integration
+## Jenkins Build Integration
+1. Configured Jenkins Job to automate test execution.
+2. After each successful build, the build status is updated in GitHub, providing real-time feedback on test results.
+
 
 # Traceability Matrix
 <pre><code>https://docs.google.com/spreadsheets/d/1TrTbwAuleJmsZZVh3xVlKV33TFJc7LrfRE9cWThmVqA/edit?usp=sharing</code></pre>
