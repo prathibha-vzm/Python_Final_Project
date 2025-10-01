@@ -100,3 +100,11 @@ sauce/
 
 # Test Case Metrics
 <pre><code>https://docs.google.com/spreadsheets/d/1pJ9gaCoUWdEgEOVdqNRbacyfHy17LlyeMiDbJX3BqLQ/edit?usp=sharing</code></pre>
+
+# Types of Testing
+1. Boundary Value Analysis
+2. Compatibility Testing
+3. Error Guessing
+4. Decision Table testing
+5. Security Testing
+6. Usability Testing
