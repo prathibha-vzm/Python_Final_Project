@@ -67,6 +67,8 @@ sauce/
   3. Verifying cart reset functionality
   4. Validating product count mismatch
   5. Checking error messages when expected fields are not filled
+* CI/CD Integration
+* Traceability Matrix
 
 # Usage
 ## To Install Dependencies
