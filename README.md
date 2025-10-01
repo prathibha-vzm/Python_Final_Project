@@ -90,6 +90,8 @@ sauce/
 ## Jenkins Build Integration
 1. Configured Jenkins Job to automate test execution.
 2. After each successful build, the build status is updated in GitHub, providing real-time feedback on test results.
+   <img width="1609" height="226" alt="image" src="https://github.com/user-attachments/assets/45d1353b-b5d1-4a2a-be4a-06ddae8cf7ae" />
+
 
 
 # Traceability Matrix
