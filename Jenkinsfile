@@ -12,7 +12,7 @@ pipeline {
             steps {
                 echo 'Building'
                 bat '''
-                    python -m venv sauce
+                    python3 -m venv sauce
                     . sauce/bin/activate
                     pip install -r requirements.txt
                 '''
@@ -39,5 +39,6 @@ pipeline {
         }
     }
 }
+
 
 
