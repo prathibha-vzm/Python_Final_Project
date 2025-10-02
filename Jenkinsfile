@@ -13,8 +13,7 @@ pipeline {
                 echo 'Building'
                 bat '''
                     python -m venv sauce
-                    call sauce\\Scripts\\activate
-                    python -m pip install --upgrade pip
+                    call sauce\Scripts\activate
                     pip install -r requirements.txt
                 '''
             }
@@ -24,8 +23,8 @@ pipeline {
             steps {
                 echo 'Testing'
                 bat '''
-                    call sauce\\Scripts\\activate
-                    robot tests\\test_invalid_credentials.robot
+                    call sauce\Scripts\activate
+                    robot tests\test_invalid_credentials.robot
                 '''
             }
         }
@@ -40,3 +39,4 @@ pipeline {
         }
     }
 }
+
