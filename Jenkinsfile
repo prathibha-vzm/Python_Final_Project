@@ -12,7 +12,7 @@ pipeline {
             steps {
                 echo 'Building'
                 bat '''
-                    python -m venv sauce
+                    python3 -m venv sauce
                     call sauce\\Scripts\\activate
                     pip install --upgrade pip
                     pip install -r requirements.txt
@@ -40,6 +40,7 @@ pipeline {
         }
     }
 }
+
 
 
 
