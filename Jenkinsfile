@@ -34,12 +34,15 @@ pipeline {
     post {
         success {
             echo "All tests passed"
+            updateGitlabCommitStatus name: 'build', state: 'success'
         }
         failure {
             echo "Some tests failed — check report in Jenkins"
+            updateGitlabCommitStatus name: 'build', state: 'failure'
         }
     }
 }
+
 
 
 
