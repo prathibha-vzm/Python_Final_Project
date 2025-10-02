@@ -24,8 +24,8 @@ pipeline {
             steps {
                 echo 'Testing'
                 bat '''
-                    call sauce/Scripts/activate.bat
-                    robot tests\test_invalid_credentials.robot
+                    call sauce/Scripts/activate
+                    robot tests/test_invalid_credentials.robot
                 '''
             }
         }
@@ -40,6 +40,7 @@ pipeline {
         }
     }
 }
+
 
 
 
