@@ -50,6 +50,8 @@ sauce/
 │   ├── home_page_variables.robot
 │   └── products_page_variables.robot
 ├── report
+├── Jenkinsfile                    # Added Jenkinsfile(Groovy) to run the build in Jenkins Pipeline
+├── README.md
 ├── requirements.txt               # Python dependencies (SeleniumLibrary, DataDriver, etc.)
 </code></pre>
 
@@ -67,7 +69,7 @@ sauce/
   3. Verifying cart reset functionality
   4. Validating product count mismatch
   5. Checking error messages when expected fields are not filled
-* CI/CD Integration
+* CI/CD Integration (Freestyle- with build status update in Git & Pipelne- Using Jenkinsfile)
 * Traceability Matrix
 * Test Metrics
 
@@ -90,10 +92,13 @@ sauce/
 <pre><code> allure serve allure-results or  allure open allure-report </code></pre>
 
 # CI/CD Integration
-## Jenkins Build Integration
+## Jenkins Build Integration - Freestyle
 1. Configured Jenkins Job to automate test execution.
 2. After each successful build, the build status is updated in GitHub, providing real-time feedback on test results.
    <img width="1609" height="226" alt="image" src="https://github.com/user-attachments/assets/45d1353b-b5d1-4a2a-be4a-06ddae8cf7ae" />
+   
+## Jenkins Pipeline Build Status
+<img width="1857" height="803" alt="image" src="https://github.com/user-attachments/assets/8e24f3db-f58d-48c4-9670-1706e7516848" />
 
 # Traceability Matrix
 <pre><code>https://docs.google.com/spreadsheets/d/1TrTbwAuleJmsZZVh3xVlKV33TFJc7LrfRE9cWThmVqA/edit?usp=sharing</code></pre>
