@@ -10,10 +10,11 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
+                echo 'Building'
                 bat '''
                     python -m venv sauce
                     call sauce\\Scripts\\activate
-                    pip install --upgrade pip
+                    python -m pip install --upgrade pip
                     pip install -r requirements.txt
                 '''
             }
@@ -21,6 +22,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
+                echo 'Testing'
                 bat '''
                     call sauce\\Scripts\\activate
                     robot tests\\test_invalid_credentials.robot
@@ -37,6 +39,4 @@ pipeline {
             echo "Some tests failed — check report in Jenkins"
         }
     }
-
 }
-
