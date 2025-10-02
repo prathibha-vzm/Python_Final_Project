@@ -38,10 +38,11 @@ pipeline {
         }
         failure {
             echo "Some tests failed — check report in Jenkins"
-            updateGitlabCommitStatus name: 'build', state: 'failure'
+            updateGitlabCommitStatus name: 'build', state: 'failed'
         }
     }
 }
+
 
 
 
