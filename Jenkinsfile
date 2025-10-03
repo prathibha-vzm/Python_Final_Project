@@ -31,17 +31,37 @@ pipeline {
         }
     }
 
-    post {
+   post {
         success {
-            echo "All tests passed"
-            updateGitlabCommitStatus name: 'build', state: 'success'
+            step([
+                $class: 'GitHubCommitStatusSetter',
+                contextSource: [$class: 'ManuallyEnteredCommitContextSource', context: 'CI Build'],
+                statusResultSource: [$class: 'ConditionalStatusResultSource', 
+                    results: [[
+                        $class: 'AnyBuildResult',
+                        message: 'Pipeline Build Success',
+                        state: 'SUCCESS'
+                    ]]
+                ]
+            ])
         }
         failure {
-            echo "Some tests failed — check report in Jenkins"
-            updateGitlabCommitStatus name: 'build', state: 'failed'
+            step([
+                $class: 'GitHubCommitStatusSetter',
+                contextSource: [$class: 'ManuallyEnteredCommitContextSource', context: 'CI Build'],
+                statusResultSource: [$class: 'ConditionalStatusResultSource', 
+                    results: [[
+                        $class: 'AnyBuildResult',
+                        message: 'Pipeline Build Failed',
+                        state: 'FAILURE'
+                    ]]
+                ]
+            ])
         }
     }
 }
+
+
 
 
 
