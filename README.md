@@ -97,8 +97,11 @@ sauce/
 2. After each successful build, the build status is updated in GitHub, providing real-time feedback on test results.
    <img width="1609" height="226" alt="image" src="https://github.com/user-attachments/assets/45d1353b-b5d1-4a2a-be4a-06ddae8cf7ae" />
    
-## Jenkins Pipeline Build Status
+## Jenkins Pipeline - JenkinsFile
 <img width="1857" height="803" alt="image" src="https://github.com/user-attachments/assets/8e24f3db-f58d-48c4-9670-1706e7516848" />
+
+## Jenkins Pipeline - PipelineScript (Node)
+<img width="799" height="250" alt="image" src="https://github.com/user-attachments/assets/f9ae3663-84e2-4967-b65a-31d564db16da" />
 
 # Traceability Matrix
 <pre><code>https://docs.google.com/spreadsheets/d/1TrTbwAuleJmsZZVh3xVlKV33TFJc7LrfRE9cWThmVqA/edit?usp=sharing</code></pre>
